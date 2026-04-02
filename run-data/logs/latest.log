@@ -1,0 +1,90 @@
+[17Mar2026 20:12:11.314] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Chakyl\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, cobblemon_farmers, --all, --output, C:\Users\Chakyl\IdeaProjects\cobble-workers\src\generated\resources, --existing, C:\Users\Chakyl\IdeaProjects\cobble-workers\src\main\resources, --mixin.config, mixins.cobblemonfarmers.json]
+[17Mar2026 20:12:11.318] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[17Mar2026 20:12:11.406] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[17Mar2026 20:12:11.439] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Chakyl/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[17Mar2026 20:12:11.609] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Chakyl\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[17Mar2026 20:12:11.610] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Chakyl\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[17Mar2026 20:12:11.612] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Chakyl\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[17Mar2026 20:12:11.613] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Chakyl\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[17Mar2026 20:12:11.839] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[17Mar2026 20:12:14.912] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[17Mar2026 20:12:14.912] [main/ERROR] [mixin/]: Mixin config mixins.cobblemonfarmers.json does not specify "minVersion" property
+[17Mar2026 20:12:14.916] [main/ERROR] [mixin/]: Mixin config mixins.dewdropfarmland.json does not specify "minVersion" property
+[17Mar2026 20:12:14.919] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Chakyl\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, cobblemon_farmers, --all, --output, C:\Users\Chakyl\IdeaProjects\cobble-workers\src\generated\resources, --existing, C:\Users\Chakyl\IdeaProjects\cobble-workers\src\main\resources]
+[17Mar2026 20:12:14.983] [main/WARN] [mixin/]: Reference map 'mixins.cobblemonfarmers.refmap.json' for mixins.cobblemonfarmers.json could not be read. If this is a development environment you can ignore this message
+[17Mar2026 20:12:15.136] [main/INFO] [mixin/]: Remapping refMap mixins.dewdropfarmland.refmap.json using C:\Users\Chakyl\IdeaProjects\cobble-workers\build\createSrgToMcp\output.srg
+[17Mar2026 20:12:15.138] [main/INFO] [mixin/]: Remapping refMap cobblemon-forge-refmap.json using C:\Users\Chakyl\IdeaProjects\cobble-workers\build\createSrgToMcp\output.srg
+[17Mar2026 20:12:15.139] [main/INFO] [mixin/]: Remapping refMap cobblemon-common-refmap.json using C:\Users\Chakyl\IdeaProjects\cobble-workers\build\createSrgToMcp\output.srg
+[17Mar2026 20:12:15.182] [main/WARN] [mixin/]: Error loading class: net/satisfy/vinery/core/block/LatticeBlock (java.lang.ClassNotFoundException: net.satisfy.vinery.core.block.LatticeBlock)
+[17Mar2026 20:12:15.182] [main/WARN] [mixin/]: @Mixin target net.satisfy.vinery.core.block.LatticeBlock was not found mixins.dewdropfarmland.json:LatticeBlockMixin
+[17Mar2026 20:12:15.183] [main/WARN] [mixin/]: Error loading class: net/satisfy/vinery/core/block/PaleStemBlock (java.lang.ClassNotFoundException: net.satisfy.vinery.core.block.PaleStemBlock)
+[17Mar2026 20:12:15.183] [main/WARN] [mixin/]: @Mixin target net.satisfy.vinery.core.block.PaleStemBlock was not found mixins.dewdropfarmland.json:PaleStemBlockMixin
+[17Mar2026 20:12:15.386] [main/WARN] [mixin/]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel.adorn.block.variant.BlockVariantSets)
+[17Mar2026 20:12:15.386] [main/WARN] [mixin/]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker
+[17Mar2026 20:12:15.712] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [cobblemon_farmers]
+[17Mar2026 20:12:18.571] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
+java.lang.IllegalStateException: Field climateSettings is not private and an instance field
+	at net.minecraftforge.coremod.api.ASMAPI.redirectFieldToMethod(ASMAPI.java:1069) ~[coremods-5.2.4.jar:?]
+	at org.openjdk.nashorn.internal.scripts.Script$Recompilation$23$292A$\^eval\_.initializeCoreMod#transformer(<eval>:11) ~[?:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:648) ~[nashorn-core-15.4.jar:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:513) ~[nashorn-core-15.4.jar:?]
+	at org.openjdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:520) ~[nashorn-core-15.4.jar:?]
+	at org.openjdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:111) ~[nashorn-core-15.4.jar:?]
+	at net.minecraftforge.coremod.NashornFactory.lambda$getFunction$0(NashornFactory.java:37) ~[coremods-5.2.4.jar:5.2.4]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:22) ~[coremods-5.2.4.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:14) ~[coremods-5.2.4.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:60) ~[coremods-5.2.4.jar:?]
+	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:117) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraft.world.level.biome.FixedBiomeSource.<clinit>(FixedBiomeSource.java:16) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar:?]
+	at net.minecraft.world.level.biome.BiomeSources.bootstrap(BiomeSources.java:8) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar:?]
+	at net.minecraft.core.registries.BuiltInRegistries.lambda$internalRegister$53(BuiltInRegistries.java:448) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar:?]
+	at net.minecraft.core.registries.BuiltInRegistries.lambda$createContents$54(BuiltInRegistries.java:462) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[?:?]
+	at net.minecraft.core.registries.BuiltInRegistries.createContents(BuiltInRegistries.java:461) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar:?]
+	at net.minecraft.core.registries.BuiltInRegistries.bootStrap(BuiltInRegistries.java:455) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar:?]
+	at net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:59) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar:?]
+	at net.minecraftforge.data.loading.DatagenModLoader.begin(DatagenModLoader.java:42) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar:?]
+	at net.minecraft.data.Main.main(Main.java:90) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.dataService(CommonLaunchHandler.java:107) ~[fmlloader-1.20.1-47.4.0.jar:?]
+	at net.minecraftforge.fml.loading.targets.ForgeDataUserdevLaunchHandler.devService(ForgeDataUserdevLaunchHandler.java:22) ~[fmlloader-1.20.1-47.4.0.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.4.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[17Mar2026 20:12:18.917] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[17Mar2026 20:12:18.918] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[17Mar2026 20:12:19.136] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[17Mar2026 20:12:19.139] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 2.368 ms
+[17Mar2026 20:12:19.202] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[17Mar2026 20:12:19.224] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[17Mar2026 20:12:19.227] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Launching Cobblemon 1.5.2 
+[17Mar2026 20:12:19.228] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting ForgePermissionApiPermissionValidator, player permissions will be checked using MinecraftForge' PermissionAPI, non player command sources will use Minecraft' permission level system, see https://docs.minecraftforge.net/en/latest/ and https://minecraft.fandom.com/wiki/Permission_level
+[17Mar2026 20:12:19.385] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting the Best Spawner...
+[17Mar2026 20:12:19.389] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning condition types.
+[17Mar2026 20:12:19.396] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning context types.
+[17Mar2026 20:12:19.396] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 spawn detail types.
+[17Mar2026 20:12:20.051] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Chakyl/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[17Mar2026 20:12:20.051] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Chakyl/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[17Mar2026 20:12:20.195] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: cobblemon_farmers
+[17Mar2026 20:12:20.214] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: cobblemon_farmers finished after 18 ms
+[17Mar2026 20:12:20.214] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 19 ms
+[17Mar2026 20:12:20.219] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 19, old count: 1, new count: 19, removed stale: 1, written: 18

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cobblemon_farmers:item/poison_type_worker"
+  }
+}

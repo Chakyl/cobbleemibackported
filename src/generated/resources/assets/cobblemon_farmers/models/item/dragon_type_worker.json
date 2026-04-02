@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cobblemon_farmers:item/dragon_type_worker"
+  }
+}
