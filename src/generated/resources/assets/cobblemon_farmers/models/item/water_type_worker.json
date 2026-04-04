@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "cobblemon_farmers:item/water_type_worker"
-  }
-}

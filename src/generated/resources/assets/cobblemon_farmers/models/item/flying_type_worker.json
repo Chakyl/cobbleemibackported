@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "cobblemon_farmers:item/flying_type_worker"
-  }
-}
