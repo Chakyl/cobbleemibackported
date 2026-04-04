@@ -1,6 +1,5 @@
 package io.github.chakyl.cobbleemibackported;
 
-import com.cobblemon.mod.common.pokemon.Species;
 import com.mojang.datafixers.util.Either;
 import dev.emi.emi.api.recipe.EmiRecipe;
 import dev.emi.emi.api.recipe.EmiResolutionRecipe;
@@ -18,7 +17,8 @@ import org.jetbrains.annotations.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.teseting.common.cobbleemi.CobbleEmiPlugin.CLIENT;
+import static io.github.chakyl.cobbleemibackported.CobbleEmiPlugin.CLIENT;
+
 
 public abstract class CobblemonDropRecipe implements EmiRecipe {
 
@@ -30,10 +30,17 @@ public abstract class CobblemonDropRecipe implements EmiRecipe {
 
     protected ResourceLocation id;
 
-    protected CobblemonDropRecipe(Species specie, String suffix)
+//    protected CobblemonDropRecipe(Species specie, String suffix)
+//    {
+//        this.id = specie.getResourceIdentifier().withPrefix("/").withSuffix("/"+suffix);
+//        this.coblemonInputStack = List.of(new CobblemonStack(specie));
+//
+//    }
+
+    protected CobblemonDropRecipe(CobblemonStack specie, String suffix)
     {
-        this.id = specie.getResourceIdentifier().withPrefix("/").withSuffix("/"+suffix);
-        this.coblemonInputStack = List.of(new CobblemonStack(specie));
+        this.id = specie.getCobbleEMIId().withPrefix("/").withSuffix("/"+suffix);
+        this.coblemonInputStack = List.of(specie);
 
     }
 
@@ -111,7 +118,7 @@ public abstract class CobblemonDropRecipe implements EmiRecipe {
         public final List<List<Either<List<CobblemonItemStack>, FormattedCharSequence>>> lines;
         public final int pageSize;
         public int currentPage;
-        public int totalPages = 0;
+        public int totalPages ;
         public int entryIndex = 0;
         public final List<Integer> entryPageIndex = new ArrayList<>();
         public EmiStack outputStack;
