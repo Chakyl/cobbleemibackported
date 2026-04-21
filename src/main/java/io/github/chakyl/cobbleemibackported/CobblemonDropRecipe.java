@@ -176,7 +176,7 @@ public abstract class CobblemonDropRecipe implements EmiRecipe {
             return new EmiResolutionRecipe(getStack(offset).stack, outputStack);
         }
     }
-    private class PageSlotWidget extends SlotWidget {
+    public class PageSlotWidget extends SlotWidget {
         public final PageManager manager;
         public final int offset;
 
@@ -215,13 +215,13 @@ public abstract class CobblemonDropRecipe implements EmiRecipe {
 
             tooltipComponentList.add(
                     ClientTooltipComponent.create(
-                            Component.translatable("gui.cobbleemi.spawninfo.drop_chance", cobblemonItemStack.getPercentage()).getVisualOrderText()
+                            Component.translatable("gui.cobbleemi.spawninfo.drop_chance", cobblemonItemStack.percentage).getVisualOrderText()
                     )
             );
             if (cobblemonItemStack.getQuantityRange()  == null ) {
                 tooltipComponentList.add(
                         ClientTooltipComponent.create(
-                                Component.translatable("gui.cobbleemi.spawninfo.quantity", cobblemonItemStack.getQuantity()).getVisualOrderText()
+                                Component.translatable("gui.cobbleemi.spawninfo.quantity", cobblemonItemStack.quantity).getVisualOrderText()
 
                         )
                 );
@@ -230,14 +230,14 @@ public abstract class CobblemonDropRecipe implements EmiRecipe {
             {
                 tooltipComponentList.add(
                         ClientTooltipComponent.create(
-                                Component.translatable("gui.cobbleemi.spawninfo.quantity_range", cobblemonItemStack.getQuantityRange().getStart(), cobblemonItemStack.getQuantityRange().getLast()).getVisualOrderText()
+                                Component.translatable("gui.cobbleemi.spawninfo.quantity_range", cobblemonItemStack.getQuantityRange().getStart(), cobblemonItemStack.quantityRange.getLast()).getVisualOrderText()
 
                         )
                 );
             }
             tooltipComponentList.add(
                     ClientTooltipComponent.create(
-                            Component.translatable("gui.cobbleemi.spawninfo.maxtimeschosen", cobblemonItemStack.getMaxSelectableTimes()).getVisualOrderText()
+                            Component.translatable("gui.cobbleemi.spawninfo.maxtimeschosen", cobblemonItemStack.maxSelectableTimes).getVisualOrderText()
 
                     )
             );

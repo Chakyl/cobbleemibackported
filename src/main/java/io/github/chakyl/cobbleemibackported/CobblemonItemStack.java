@@ -25,7 +25,7 @@ public class CobblemonItemStack extends ItemDropEntry {
             cobblemonItemStack.percentage = itemDropEntry.getPercentage();
             cobblemonItemStack.quantity = itemDropEntry.getQuantity();
             cobblemonItemStack.quantityRange = itemDropEntry.getQuantityRange();
-            cobblemonItemStack.maxSelectableTimes =itemDropEntry.getMaxSelectableTimes();
+            cobblemonItemStack.maxSelectableTimes = itemDropEntry.getMaxSelectableTimes();
             cobblemonItemStack.stack = emiStack;
             return cobblemonItemStack;
         }
