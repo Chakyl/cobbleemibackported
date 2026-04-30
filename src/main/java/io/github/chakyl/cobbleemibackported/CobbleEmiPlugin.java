@@ -120,8 +120,11 @@ public class CobbleEmiPlugin implements EmiPlugin {
 
 
             if (spawnDetail instanceof PokemonSpawnDetail pokemonSpawnDetail) {
-                Species specie = pokemonSpawnDetail.getPokemon().create().getSpecies();
-//                String form = pokemonSpawnDetail.getPokemon().getForm();
+                String speciesName = pokemonSpawnDetail.getPokemon().getSpecies();
+                Species specie = PokemonSpecies.INSTANCE.getByName(speciesName);
+
+                if (specie == null) continue;
+
                 var aspects = pokemonSpawnDetail.getPokemon().getAspects();
                 FormData formdata = specie.getForm(aspects);
 
